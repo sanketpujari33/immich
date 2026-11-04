@@ -17,7 +17,7 @@
     }
   },
   "scripts": {
-    "build": "tsc"
+    "build": "node init && tsc"
   },
   "license": "GNU Affero General Public License version 3",
   "dependencies": {

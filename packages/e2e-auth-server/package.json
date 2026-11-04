@@ -5,7 +5,7 @@
   "type": "module",
   "main": "auth-server.ts",
   "scripts": {
-    "start": "tsx startup.ts"
+    "start": "node init && tsx startup.ts"
   },
   "devDependencies": {
     "jose": "^6.0.0",

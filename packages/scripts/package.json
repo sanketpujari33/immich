@@ -12,7 +12,7 @@
   },
   "scripts": {
     "cli": "node dist/main.js",
-    "build": "vite build",
+    "build": "node init && vite build",
     "watch": "vite build --watch",
     "lint": "eslint \"src/**/*.ts\" --max-warnings 0",
     "lint:fix": "pnpm run lint --fix",

@@ -16,7 +16,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node esbuild.js && tsc --emitDeclarationOnly && tsc-alias"
+    "build": "node init && node esbuild.js && tsc --emitDeclarationOnly && tsc-alias"
   },
   "files": [
     "dist"

@@ -10,9 +10,9 @@
     "#test/*": "./test/*"
   },
   "scripts": {
-    "dev": "vite dev --host 0.0.0.0 --port 3000",
-    "build": "vite build",
-    "build:stats": "BUILD_STATS=true vite build",
+    "dev": "node init && vite dev --host 0.0.0.0 --port 3000",
+    "build": "node init && vite build",
+    "build:stats": "node init && BUILD_STATS=true vite build",
     "package": "svelte-kit package",
     "preview": "vite preview",
     "check:svelte": "svelte-check --no-tsconfig --fail-on-warnings --compiler-warnings 'state_referenced_locally:ignore'",
